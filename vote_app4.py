@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 import os
 
-# 背景色をイエロー（10%の不透明度）に設定するCSS
+# 背景色を水色（15%の不透明度）に設定するCSS
 st.markdown(
     """
     <style>
     .stApp {
-        background-color: rgba(255,255,0,0.1);
+        background-color: rgba(173,216,230,0.15);
     }
     </style>
     """,
